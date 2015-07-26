@@ -14,7 +14,7 @@ Strategies are located in [players.py](src/players.py).
     $ bin/test # run tests with pytest
 
 
-# Current Results:
+# Current Results
 
 Results vary among executions (some strategies include random factors),
 but very little (< 1%) and rarely altering order.
@@ -42,6 +42,7 @@ but very little (< 1%) and rarely altering order.
 - Making `NiceTitForTat` `VeryNice` makes little difference, and for the worse
 - `ForgivingRetaliation` seems arbitrary, is very close to `NiceTitForTat`
 - `Satan` wins every individual duel, but is the worst overall
+- `Satan` is worse than `Random`
 - `OportunisticTitForTat` is worse than random
 - The difference between the best and worst strategies is 25%
 - Playing less than 300 rounds (30) alters order, but NiceTitForTat still wins
