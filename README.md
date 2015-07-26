@@ -5,7 +5,7 @@ with several competing strategies playing against every other.
 
 Each match has 300 rounds, each strategy is paired against each other once.
 
-Strategies are located in [players.py](players.py).
+Strategies are located in [players.py](src/players.py).
 
 
 # Running
